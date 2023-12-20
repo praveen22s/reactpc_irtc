@@ -1,0 +1,51 @@
+:root {
+  --darkGrey: #1f2130;
+  --purple: #9d60f2;
+  --hoverPurple: #7d3dd7;
+  --white: white;
+  --black: black;
+  --textGrey: rgb(237, 233, 233);
+  --yellow: #fbc256;
+  --darkYellow: #f7b842;
+}
+
+.footer {
+  background-color: var(--textGrey);
+  color: var(--black);
+  padding-top: 20px;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.mail-links {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.mail-links:hover {
+  text-decoration: underline;
+}
+
+.contact-links {
+  color: var(--black);
+  text-decoration: none;
+  padding: 5px;
+}
+
+.contact-links:hover {
+  background-color: var(--darkYellow);
+  color: var(--white);
+  text-shadow: 2px 2px 2px var(--darkYellow);
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.below-footer {
+  background-color: var(--textGrey);
+  color: var(--black);
+  padding: 10px;
+  text-align: center;
+  line-height: 1.6;
+}

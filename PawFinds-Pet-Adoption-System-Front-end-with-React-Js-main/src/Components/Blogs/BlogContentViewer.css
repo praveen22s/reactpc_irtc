@@ -1,0 +1,30 @@
+:root {
+    --darkGrey: #1f2130;
+    --purple: #9d60f2;
+    --hoverPurple: #7d3dd7;
+    --white: rgb(255, 255, 255);
+    --black: black;
+    --textGrey: rgb(237, 233, 233);
+    --yellow: #fbc256;
+    --darkYellow: #f7b842;
+    --blueBtn: #3498db;
+    --blueBtnhover: #2980b9;
+  }
+
+.title {
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+  margin-bottom: 10px;
+  color: var(--darkYellow);
+}
+.section-title {
+  font-family: "Varela Round", sans-serif;
+  margin-top: 20px;
+  color: var(--darkYellow);
+}
+.paragraph {
+  margin-bottom: 15px;
+  line-height: 1.4;
+  font-family: "Varela Round", sans-serif;
+  color: var(--darkGrey);
+}

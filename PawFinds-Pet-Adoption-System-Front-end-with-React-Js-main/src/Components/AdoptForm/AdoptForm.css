@@ -1,0 +1,125 @@
+.form-pet-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.pet-details {  
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  border: 1px solid var(--darkYellow);
+  width: 310px;
+  height: 120px;
+  margin-bottom: 17px;
+}
+
+.pet-pic img {
+  width: 150px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.pet-info h2 {
+  font-family: "Varela Round", sans-serif;
+  color: var(--darkYellow);
+  text-align: center;
+  margin: 5px 0;
+}
+
+.pet-info p {
+  font-family: "Varela Round", sans-serif;
+  color: var(--darkYellow);
+}
+
+.custom-adopt-form-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.custom-form-heading {
+  font-family: "Varela Round", sans-serif;
+  padding-bottom: 10px;
+  color: var(--darkYellow);
+  border-bottom: 2px solid var(--darkYellow);
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.custom-form img {
+  max-width: 60%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.custom-form p {
+  font-family: "Varela Round", sans-serif;
+  color: var(--darkGrey);
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.custom-form h3 {
+  font-family: "Varela Round", sans-serif;
+  color: var(--darkYellow);
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.custom-label {
+  font-family: "Varela Round", sans-serif;
+  color: var(--darkYellow);
+  font-weight: bold;
+  margin-bottom: 3px;
+  display: block;
+}
+
+.custom-input-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.custom-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 500px;
+}
+
+.custom-cta-button {
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: var(--yellow);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 100px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  border: none;
+}
+
+.custom-cta-button:hover {
+  background-color: var(--darkYellow);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.custom-m-b {
+  margin-bottom: 20px;
+}
+
+.email-not-valid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.email-not-valid p {
+  font-family: "Varela Round", sans-serif;
+  color: rgb(231, 58, 58);
+  font-size: 14px;
+  margin-bottom: 5px;
+}

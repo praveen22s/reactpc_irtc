@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.container > form {
+    width: 70%;
+    border: 2px solid #3498db;
+    padding: 20px;
+    border-radius: 10px;
+    background: #dfddd6;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    width: 100%;
+    transition: transform 0.2s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
+}
+
+input:focus {
+    transform: scale(1.05);
+}
+
+pre {
+    width: 70%;
+    color: #fff;
+    font-size: larger;
+    animation: fadeIn 1s ease-in-out;
+}
+
+button {
+    background: #5e656996;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
+}
+
+button:hover {
+    background: #566570;
+    transform: scale(1.05);
+}
+
+
+.fluid.ui.button.blue {
+    background: #3498db;
+    color: #fff;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.fluid.ui.button.blue:hover {
+    background: #2077b4;
+}
+
+
+button:hover {
+    background: #2077b4;
+    transform: scale(1.05);
+}
+
+p {
+    color: #e74c3c;
+    margin: 5px 0;
+    animation: shake 0.5s ease-in-out;
+}
+
+.text {
+    margin: 10px 0;
+    padding: 10px;
+    color: #666;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+span {
+    color: #2ecc71;
+    cursor: pointer;
+    font-weight: bold;
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+@media (max-width: 600px) {
+    .container > form {
+        width: 90%;
+    }
+}

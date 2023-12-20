@@ -1,0 +1,30 @@
+.filter-selection {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px 25px;
+}
+
+.filter-selection select {
+    font-family: "Varela Round", sans-serif;
+    font-size: 14px;
+    margin: 10px 0;
+    border-radius: 100px;
+    border: none;
+    padding: 8px 8px;
+    color: var(--white);
+    background-color: var(--yellow);   
+}
+
+.filter-selection select:active {
+    border: none;
+}
+
+.filter-selection select:after {
+    border: none;
+}
+
+.pet-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

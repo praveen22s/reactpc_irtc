@@ -1,0 +1,44 @@
+:root {
+  --darkGrey: #1f2130;
+  --purple: #9d60f2;
+  --hoverPurple: #7d3dd7;
+  --white: rgb(255, 255, 255);
+  --black: black;
+  --textGrey: rgb(237, 233, 233);
+  --yellow: #fbc256;
+  --darkYellow: #f7b842;
+  --blueBtn: #3498db;
+  --blueBtnhover: #2980b9;
+}
+
+.main-container {
+  padding: 50px 0;
+}
+
+.titles-container {
+  max-width: 20vw;
+  min-width: 20vw;
+  padding: 25px;
+}
+
+.titles-container > * {
+  font-family: "Varela Round", sans-serif;
+  cursor: pointer;
+  margin: 10px 0;
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--darkYellow);
+}
+
+.titles-container > *:hover {
+  padding-left: 10px;
+  transition: padding-left 0.4s;
+}
+
+.blog-container {
+  border-left: 3px solid var(--darkYellow);
+  padding: 0 4vw;
+  max-width: 80vw;
+  min-width: 80vw;
+}

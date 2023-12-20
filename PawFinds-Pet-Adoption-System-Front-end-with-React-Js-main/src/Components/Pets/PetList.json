@@ -1,0 +1,73 @@
+[
+    {
+      "name": "Buddy",
+      "type": "Dog",
+      "age": "3 years",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/1/18/Dog_Breeds.jpg",
+      "location": "Blue Area, Islamabad"
+    },
+    {
+      "name": "Whiskers",
+      "type": "Cat",
+      "age": "1 year",
+      "picture": "https://media.istockphoto.com/id/1322123064/photo/portrait-of-an-adorable-white-cat-in-sunglasses-and-an-shirt-lies-on-a-fabric-hammock.jpg?s=612x612&w=0&k=20&c=-G6l2c4jNI0y4cenh-t3qxvIQzVCOqOYZNvrRA7ZU5o=",
+      "location": "Saddar, Rawalpindi"
+    },
+    {
+      "name": "Max",
+      "type": "Dog",
+      "age": "2 years",
+      "picture": "https://images.all-free-download.com/images/graphiclarge/adorable_animal_breed_canine_cute_dog_doggy_603714.jpg",
+      "location": "DHA, Lahore"
+    },
+    {
+      "name": "Luna",
+      "type": "Cat",
+      "age": "6 months",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/7/74/A-Cat.jpg",
+      "location": "Gulberg, Karachi"
+    },
+    {
+      "name": "Rocky",
+      "type": "Dog",
+      "age": "4 years",
+      "picture": "https://cdn.britannica.com/16/234216-050-C66F8665/beagle-hound-dog.jpg",
+      "location": "F-10, Islamabad"
+    },
+    {
+      "name": "Mittens",
+      "type": "Cat",
+      "age": "2 years",
+      "picture": "https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y3V0ZSUyMGNhdHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
+      "location": "Model Town, Lahore"
+    },
+    {
+      "name": "Charlie",
+      "type": "Dog",
+      "age": "1 year",
+      "picture": "https://www.princeton.edu/sites/default/files/styles/scale_1440/public/images/2022/02/KOA_Nassau_2697x1517.jpg?itok=lA8UuoHt",
+      "location": "Clifton, Karachi"
+    },
+    {
+      "name": "Snowball",
+      "type": "Cat",
+      "age": "8 months",
+      "picture": "https://hips.hearstapps.com/hmg-prod/images/funny-cat-captions-1563551842.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*",
+      "location": "G-9, Islamabad"
+    },
+    {
+      "name": "Bella",
+      "type": "Dog",
+      "age": "3 years",
+      "picture": "https://www.thesprucepets.com/thmb/Sm_xFWy9fWvSmpCrKA_71C58qdo=/2835x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-01-1877b6d7f80a4bf492d71907c0d82bd3.jpg",
+      "location": "Johar Town, Lahore"
+    },
+    {
+      "name": "Oscar",
+      "type": "Cat",
+      "age": "1.5 years",
+      "picture": "https://images.unsplash.com/photo-1530153892876-56d69b38e5c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0JTIwbWVvd3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
+      "location": "Gulshan, Karachi"
+    }
+  ]
+  
